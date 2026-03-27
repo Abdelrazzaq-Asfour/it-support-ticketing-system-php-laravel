@@ -1,59 +1,58 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎫 IT Support Ticketing System (PHP/Laravel)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Laravel](https://img.shields.io/badge/Laravel-11-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap)
 
-## About Laravel
+## 🚀 Overview
+This is a professional IT Support Portal designed for corporate environments to manage internal technical issues efficiently. Built with the **MVC architecture** in Laravel, it ensures scalability and security.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Core Features
+* **Ticket Lifecycle Management:** Open, Update, and Resolve tickets with ease.
+* **Interactive Timeline:** Every action is logged with a visual timeline (Comments & Status changes).
+* **Role-Based Access:** Distinct interfaces for **Admins /(Staff)** and **Clients**.
+* **Advanced Filtering:** Filter tickets by Status, Department, and Date range.
+* **User Empowerment:** Clients can re-open tickets if the issue persists.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🛠 Technical Stack
+* **Backend:** PHP 8.2+ | Laravel 11
+* **Frontend:** Blade Templates | Bootstrap 5 | Bootstrap Icons
+* **Database:** SQLite / MySQL
+* **Tools:** Composer, NPM
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🖥️ System Overview & Interface
+This interface showcases a meticulously designed **Support Request History**, providing a seamless and organized experience for managing and tracking technical issues within a corporate environment.
 
-## Laravel Sponsors
+### 🛠️ Key System Components:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* **Main Control Panel:** A sleek top navigation bar providing rapid access to the **User Profile** and a prominent **"Open New Ticket"** button for immediate assistance.
+* **Smart Filtering System:** Integrated advanced search tools allowing users and administrators to filter by **Date**, **Status**, or **Ticket Origin**, ensuring efficient data retrieval.
+* **Dynamic Ticket Ledger:** A structured, high-performance table displaying issue details with a **Color-Coded Status System** (e.g., *Pending, Resolved, In Progress*) to streamline workflow monitoring and task prioritization.
+* **Interactive Ticket Timeline:** Beyond the basic view, the system offers an expandable **"Details"** toggle and an **"Update"** action, enabling real-time communication history and status accuracy.
 
-### Premium Partners
+### 🎨 The Technical Touch:
+The design prioritizes a **Clean UI** and an **Intuitive User Experience (UX)**. By leveraging **Bootstrap 5** and **Laravel's Blade engine**, the platform is optimized for professional environments that demand:
+* ✅ **Rapid Response Times**
+* ✅ **High Data Scalability**
+* ✅ **Mobile Responsiveness**
+* ✅ **Role-Based Visibility**
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
+## 📸 Screenshots
 
-## Contributing
+<img width="1897" height="890" alt="image" src="https://github.com/user-attachments/assets/9da3abfa-3e5d-4064-b6d3-cc4c8c5f5acb" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="1916" height="893" alt="image" src="https://github.com/user-attachments/assets/e9750ea3-9e67-439e-8f31-065234a8db37" />
 
-## Code of Conduct
+<img width="1913" height="890" alt="image" src="https://github.com/user-attachments/assets/b1c42a55-b5dc-4dc3-9e73-af814ba2d2b7" />
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/ae19b77f-f232-4ada-a996-4279f6071738" />
 
-## Security Vulnerabilities
+<img width="1902" height="893" alt="image" src="https://github.com/user-attachments/assets/031b143f-1362-4816-8e07-46a9378c77f8" />
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+**Developed by Eng. Abdelrazzaq Asfour** *Software Engineer | Dedicated to building robust software solutions.*
